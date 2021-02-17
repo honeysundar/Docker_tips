@@ -1,0 +1,22 @@
+Docker ps 
+docker run -d -it --rm -p 8888:8081 tomcat:9.0
+docker exec -it 15491222516c "/bin/bash"
+docker images
+docker inspect 
+dockerfile
+docker build 
+docker push dockerhub
+docker pull image & run
+docker run
+
+
+
+Questions 
+1. can i use 2 base images ?
+2. how can i handle 2 dockerfile ? multi stage build
+3. run vs cmd 
+4. cmd vs entrypoints 
+5. mount volumes - data 
+6. collects log from the container ?
+7. how to monitor the conntainer ?
+8. container orch ( Swarm , ECS ,k8s)
